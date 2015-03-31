@@ -1,0 +1,186 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif; 
+	background:  #34495e; /* url('bg.jpg') no-repeat center; */
+	background-size: 100% 100%; 
+}
+
+.transparent {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: rgba(0,0,0, 0.7);
+	overflow: hidden;
+}
+
+.container {
+	position: relative;
+	max-width: 1024px;
+	width: auto;
+	margin: auto;
+	overflow: hidden;
+}
+
+.head-title {
+	margin-top: 110px;
+	font-size: 72px;
+	color: #fff;
+	text-align: center;
+}
+
+.sub-title {
+	margin: 20px;
+	font-size: 42px;
+	color: #fff;
+	text-align: center;
+}
+
+.content {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 40px auto;
+	background: #c0392b;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.cont-title {
+	display: none;
+	margin: 15px;
+	font-size: 25px;
+	font-style: italic;
+	color: #fff;
+	text-align: center;
+}
+
+.cont-text {
+	display: none;
+	margin: 15px;
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+}
+
+#link1, #link2 { 
+	margin: 15px;
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+}
+
+#link1 a, #link2 a {
+	color: inherit;
+	text-decoration: none;
+} 
+
+#link1:hover, #link2:hover {
+	cursor: pointer;
+	color: #2c3e50;
+}
+
+#team {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: #1E8BC3;
+}
+
+.team-title {
+	margin-top: 110px;
+	font-size: 52px;
+	color: #fff;
+	text-align: center;
+}
+
+.team-wrap {
+	width: 720px;
+	margin: 20px auto;
+}
+
+.team-members {
+	position: relative;
+	width: 200px;
+	height: 250px;
+	margin: 20px;
+	float: left;
+	background: #2c3e50;
+	overflow: hidden;
+}
+
+.team-member-pic {
+	margin: 15px auto;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 90px;
+	overflow: hidden;
+}
+
+.team-member-pic img {
+	width: 150px;
+}
+
+.team-member-name {
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.team-member-role {
+	color: #fff;
+	text-align: center;
+}
+
+.goTo {
+	margin: auto;
+	color: #fff;
+	font-size: 22px;
+	clear: both;
+	text-align: center;
+}
+
+.goTo a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.goTo:hover {
+	cursor: pointer;
+	color: #2c3e50;
+}
+
+#guide {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: #e74c3c;
+}
+
+.links {
+	display: none;
+}
+
+.guide-title {
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+}
+
+.guide-text {
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}

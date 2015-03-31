@@ -3,12 +3,105 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hay Day Clan</title>
-	<link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
-	<style type="text/css">
-		body{ font-family: 'Poiret One', cursive; }
-	</style>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='style.css' type='text/css' rel="stylesheet" />
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.2/jquery.fullPage.css' type='text/css' rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.2/jquery.fullPage.min.js"></script>
 </head>
 <body>
-	<h1>Hay Day Clan</h1>
+	<div id="fullpage">
+		<div class="transparent section active" data-anchor="home1">
+			<div class="container">
+			 	<div class="head-title">Hay Day Clan</div>
+			 	<div class="sub-title">Самый лучший клан</div>
+			 	<div class="content">
+			 		<div id="write1" class="cont-title">Привет :)</div>
+			 		<div id="write2" class="cont-text">Здесь ты найдешь и познаешь мудрость вселенского масштаба, сынок</div>
+			 		<div id="write3" class="cont-text">а хотя нет :(</div>
+			 		<div id="write4" class="cont-text">но что то полезное обязательно найдешь</div>
+			 		<div id="write5" class="cont-text">вот тебе несколько ссылок</div>
+			 		<div class="links">
+				 		<div id="link1"><a href="#guide">Гайд Новичка</a></div>
+				 		<div id="link2"><a href="#team">Основная команда</a></div>
+				 	</div>
+			 	</div>
+			 </div>
+		 </div>
+		 <div id="team" class="section" data-anchor="team1">
+		 	<div class="container">
+			 	<div class="team-title">Основная команда</div>
+			 	<div class="team-wrap">
+			 		<div class="team-members">
+			 			<div class="team-member-pic"><img src="ruben.png" alt="Ruben" /></div>
+			 			<div class="team-member-name">Ruben</div>
+			 			<div class="team-member-role">роль - руководитель</div>
+			 		</div>
+			 		<div class="team-members">
+			 			<div class="team-member-pic"><img src="armen.jpg" alt="Armen" /></div>
+			 			<div class="team-member-name">Armen</div>
+			 			<div class="team-member-role">роль - руководитель</div>
+			 		</div>
+			 		<div class="team-members">
+			 			<div class="team-member-pic"><img src="lian.jpg" alt="Lian" /></div>
+			 			<div class="team-member-name">Lian</div>
+			 			<div class="team-member-role">роль - участница</div>
+			 		</div>
+			 		<div class="team-members">
+			 			<div class="team-member-pic"><img src="tanya.jpg" alt="Tanya" /></div>
+			 			<div class="team-member-name">Татьяна</div>
+			 			<div class="team-member-role">роль - старшина</div>
+			 		</div>
+			 		<div class="team-members">
+			 			<div class="team-member-pic"><img src="ira.jpg" alt="Ira" /></div>
+			 			<div class="team-member-name">Ruben</div>
+			 			<div class="team-member-role">Ира - старшина</div>
+			 		</div>
+			 		<div class="team-members">
+			 			<div class="team-member-pic"><img src="sveta.png" alt="Sveta" /></div>
+			 			<div class="team-member-name">Света</div>
+			 			<div class="team-member-role">роль - старшина</div>
+			 		</div>		 		
+			 	</div>
+			 	<div class="goTo"><a href="#guide">Гайд</a></div>
+			 </div>
+		 </div>
+		 <div id="guide" class="section" data-anchor="guide1">
+		 	<div class="container">
+		 		<div class="guide-title">Гайд для новичка</div>
+		 		<div class="guide-content">
+		 			<div class="guide-text">Ого! новенкый.</div>
+		 			<div class="guide-text">Привет :)</div>
+		 			<div class="guide-text">ты попал в самую лучшый клан Hay Day-а!!!</div>
+		 			<div class="guide-text">мы тут живем как одна семья</div>
+		 			<div class="guide-text">играем,общаемся, шутим</div>
+		 			<div class="guide-text">...</div>
+		 			<div class="guide-text">вообщем у нас не скучно</div>
+		 			<br />
+		 			<br />
+		 			<div class="guide-text">короче помогай всем,будь активен и все будет OK</div>
+		 			<br />
+		 			<br />
+		 			<div class="guide-text">если есть много хороших продуктов,можешь делать распродажу</div>
+		 			<br />
+		 			<div class="guide-text">P.S.</div>
+		 			<div class="guide-text">да и тут такое дела... вообщем мы продаем все по максимум цене :)</div>
+		 			<br />
+		 			<br />
+		 			<br />
+		 			<br />
+		 			<br />
+		 			<br />
+		 			<div class="goTo"><a href="#team">Основная команда</a></div>
+		 		</div>
+		 	</div>
+		 </div>
+	 </div>
+	 <audio id="spaceSound" autoplay>
+		<source src="space.mp3"></source>
+		<!--<source src="audio/beep.ogg"></source>-->
+		Your browser isn't invited for super fun audio time.
+	</audio>
+	 <script type="text/javascript" src='main.js'></script>
 </body>
 </html>
